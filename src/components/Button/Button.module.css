@@ -1,0 +1,15 @@
+.button {
+    padding-block: .25rem;
+    padding-inline: .5rem;
+    font-weight: 500;
+    cursor: pointer;
+    border: 1px solid #000;
+    border-radius: .25rem;
+    background-color: #fdfdfd;
+    transition: background-color .25s ease-in-out;
+
+    &:hover,
+    &:focus {
+        background-color: #d6d6d6;
+    }
+}
